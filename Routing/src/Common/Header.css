@@ -17,3 +17,18 @@ nav{
 p{
     text-align: center;
 }
+.Container{
+width: 1320px;
+flex-wrap: wrap;
+margin: auto;
+border: 1px solid red;
+display: flex;
+}
+
+.BlogItems{
+    text-align: center;
+    padding-bottom: 10px;
+    flex-basis: 23%;
+    box-shadow: 0px 0px 10px 2px #ccc;
+    margin: 1%;
+}

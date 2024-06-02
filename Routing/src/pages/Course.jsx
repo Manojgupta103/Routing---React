@@ -26,6 +26,11 @@ return (
                         <br />
                         Explore server-side JavaScript with Node.js and build web applications using the Express.js framework.
                 </p>
+                <p>
+                        <strong>Course 5:</strong> Introduction to Git and GitHub
+                        <br />
+                        Learn the fundamentals of Git and GitHub, including version control, branching, and merging.
+                </p>
         </>
 );
 }

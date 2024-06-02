@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom/client'
 import Home from './pages/Home'
 import About from './pages/About'
 import Course from './pages/Course'
+import Blog from './pages/Blog'
+import BlogDetails from './pages/BlogDetails'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import './index.css'
 
@@ -21,6 +23,14 @@ let allRoutes=createBrowserRouter(
       path: '/course',
       element:  <Course />,
     },
+    {
+      path: '/blog',
+      element: <Blog/>
+    },
+    {
+      path:'blog/:id',
+      element:<BlogDetails/>
+    }
   ]
 )
 
