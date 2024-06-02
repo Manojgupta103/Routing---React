@@ -4,7 +4,7 @@ import Home from './pages/Home'
 import About from './pages/About'
 import Course from './pages/Course'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
-// import './index.css'
+import './index.css'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 let allRoutes=createBrowserRouter(
